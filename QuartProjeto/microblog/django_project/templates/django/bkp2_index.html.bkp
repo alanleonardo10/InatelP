@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  
+{% load staticfiles %} <!-- Nova linha que carrega os arquivos estáticos -->
+  
+<html>
+  
+  <head>
+    <title>Inatel Django Exemplo</title>
+    <link rel='stylesheet' href='{% static "css/form.css" %}' />
+  </head>
+
+  <body>
+    {% include "django/cabecalho.html" %}
+
+    <div>
+      <fieldset>
+        <legend>Cadastro de Pessoas</legend>
+        <form>
+          <table cellpadding="5">
+            <tr>
+              <td>Nome:</td>
+              <td><input type="text" name="nome" id="nome"></input></td>
+            </tr>
+
+            <tr>
+              <td>Endereço: </td>
+              <td><input type="text" name="endereco" id="endereco"></input></td>
+            </tr>
+
+            <tr>
+              <td>CPF:</td>
+              <td><input type="text" name="cpf" id="cpf"></input></td>             
+            </tr>
+
+            <tr>
+              <td colspan="2"><input type="submit" value="Enviar"></input></td>
+            </tr>
+
+          </table>
+
+        </form>
+
+      </fieldset>
+
+    </div>
+
+  </body>
+
+</html>

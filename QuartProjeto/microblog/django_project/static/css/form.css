@@ -1,0 +1,13 @@
+fieldset {
+      padding: 30px;
+      margin: 0 auto;
+      width: 50%;
+  }
+  input[type='text'] {
+       width: 650px;
+  }
+  input[type='submit']  {
+      font-family: Segoe UI;
+      padding: 15px;
+      width: 150px;
+  }

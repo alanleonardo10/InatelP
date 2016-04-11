@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+{% load staticfiles %} <!-- Nova linha que carrega os arquivos estáticos -->
+
+<html>
+
+	<head>
+		<title>Django Form Exemplo</title>
+		<link rel='stylesheet' href='{% static "css/cabecalho.css" %}' />
+	</head>
+
+	<body>
+		<div class='logo'>
+			<img src="{% static "img/inatel.gif" %}" alt="Logo do Inatel" />
+		</div>
+
+		<div class='menu'>
+			<a href="/django_app/sobre/">Sobre</a>
+			<a href="/django_app/sair/">Sair</a>
+		</div>
+
+		<div class='bemvindo'>
+			<h2>Bem vindo ao nosso Site Django do Inatel!</h2>
+		</div>
+
+	</body>
+
+</html>

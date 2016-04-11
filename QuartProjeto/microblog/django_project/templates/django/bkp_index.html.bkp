@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+  02 <html>
+  03 
+  04     <head>
+  05         <title>Django Index</title>
+  06     </head>
+  07 
+  08     <body>
+  09         <h2>Django diz pra você:</h2>
+  10         olá fulano! <strong>{{ msgnegrito }}</strong><br />
+  11         <a href="/django_app/sobre/">Sobre</a><br />
+  12     </body>
+  13 
+  14 </html>
